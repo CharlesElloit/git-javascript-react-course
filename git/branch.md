@@ -72,6 +72,6 @@ Git branches are effectively a pointer to a snapshot of your changes. When you w
   ```
   ### Example
   ```bash
-  $ git checkout "Little Feature"
+  $ git checkout little-feature
   ```
 
