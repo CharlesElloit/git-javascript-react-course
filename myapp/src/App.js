@@ -1,10 +1,9 @@
-function Hello() {
+import Hello from "./class-01/expression-in-jsx"
+
+function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-      <h1>Welcome</h1>
-    </div>
+    <Hello />
   )
 };
 
-export default Hello;
+export default App;
