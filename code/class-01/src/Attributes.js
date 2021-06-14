@@ -1,7 +1,7 @@
 function Hello() {
   return (
     <h1 className="fullname" tabIndex="1" width={300}>
-      Hello, World!
+      Hello, from Attributes in JSX!
     </h1>
   )
 };

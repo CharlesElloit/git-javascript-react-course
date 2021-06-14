@@ -1,9 +1,9 @@
-import Hello from "./class-01/expression-in-jsx"
+import Hello from "./import";
 
 function App() {
   return (
     <Hello />
   )
-};
+}
 
 export default App;

@@ -5,9 +5,9 @@ Introduction to React
 1. What is React
 
 Chapter 1. Introductin to JSX
-   1. Creating React elements
-   1. Embedding Expressions in JSX
-   1. Specifying Attributes within JSX.
+   1. [x] Creating React elements
+   1. [x] Embedding Expressions in JSX
+   1. [x] Specifying Attributes within JSX.
 
 Chapter 2. Components
    1. Introduction to Components

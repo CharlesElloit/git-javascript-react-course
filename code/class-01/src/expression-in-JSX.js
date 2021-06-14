@@ -2,7 +2,7 @@
  * Passing expression in JSX.
  */
 
-function Hello() {
+ function Hello() {
   const add = (x, y) => {
     return x + y
   }
