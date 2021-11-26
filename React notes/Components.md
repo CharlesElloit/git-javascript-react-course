@@ -2,7 +2,9 @@
 
 In this topic, we will understand what React Components are, how to create<br> components and how to render them.
 
-### What are React Components?<br>
+### What are React Components?
+
+<br>
 React Components are the building blocks of any React application. Components<br> allow us to split our UI into independent and resuable UI pieces.<br>
 
 A typical React application will have many Components like header, navbar, main<br> content and a footer component. Conceptually a component is either a JavaScript class or<br> function which are refer to either stateful or stateless component, also known as logic or<br> presentational components that accepts inputs which are called properties or by convention known<br> as props and returns a React element that describes how a section of the User Interface should look like.<br>
@@ -13,22 +15,22 @@ In React and most other Javascript frameworks today, instead of writing a web<br
 
 Let's see how class base component are defined.
 
-## Stateless Class component Example 
+## Stateless Class component Example
+
 <br>
 
 ```js
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class App extends Component {
   render() {
-    return (
-      <h1>Hello world!</h1>
-    )
+    return <h1>Hello world!</h1>;
   }
 }
 ```
 
 Now let's see how functional base components are defined.
+
 ```js
 Stateless functional component Example
 
@@ -56,6 +58,7 @@ const App = () => {
 ```
 
 ## Statefull Class components
+
 <br>
 
 ```js
@@ -78,6 +81,7 @@ class SayHello extends React.Component {
   }
 }
 ```
+
 ```js
 Statefull Functional component using Hooks Example
 
@@ -88,8 +92,9 @@ function SayHello() {
      <h1>Hello, { name }</h1>
   )
 };
-``` 
+```
 
 ## What are the differences of stateless and stateful component?.
+
 <br>
 The difference is that one has state, and the other doesn’t. That means the stateful components<br> are keeping track of data changes in the application, while stateless components print out what is<br> given to them via properties, also known as props by convention, or they always render the same<br> thing in other words it's deterministics.

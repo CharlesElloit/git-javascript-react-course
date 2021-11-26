@@ -15,7 +15,7 @@ const name = "Charles";
 
 // Named exports
 export const person = "person";
-export const time = '00:00:00pm'
+export const time = "00:00:00pm";
 
 // Default export
 export default name;
