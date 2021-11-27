@@ -253,10 +253,20 @@ To setup a Github account you head over to [github.com](https://github.com)
 
   This command show all the commits logs or in other words the entire history of the<br> commits you made in this repository, including the message, commit hash, author of<br> the commit and the time the commit was made.
 
-  ### Example
+  ### Syntax
 
   ```bash
   $ git log
+  ```
+
+  ### Example
+
+  ```
+  commit 99d95cf346fc62f6b0f98edac43c1cb3a50ff481
+  Author: CharlesElloit <aciforcharles@gmail.com>
+  Date:   Sat Nov 27 00:29:45 2021 +0300
+
+      restructured the folder structure
   ```
 
   <br>
@@ -273,8 +283,74 @@ To setup a Github account you head over to [github.com](https://github.com)
   This command show all the commits logs or in other words the entire history of the<br> commits you made in this repository,
   but with breif info about each commit not too<br> detailed.
 
-  ### Example
+  ### Syntax
 
   ```bash
   $ git reflog
+  ```
+
+  ### Example
+
+  ```
+  308b45d HEAD@{2}: commit: updated git-basic-commands
+  ```
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+<center>
+<ul>
+<h2 style="font-size: 35px">Merge Conflicts</h2>
+</center>
+
+<br>
+<br>
+This is a process where by multiple people working on the same project and they have made<br> changes to the same part of the code and then try to sync up their work together. it called a<br> conflict.
+<br>
+<br>
+
+### Example
+
+```
+CONFLICT (content): Merge conflict in index.js
+Automatic merge failed; fix conflicts and then
+commit the result.
+```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<h2 style="font-size: 35px">Revert back to old version of the code</h2>
+</center>
+
+- ## `git reset`
+
+  This command reset or revert your code back to the older version.
+  <br>
+  <br>
+
+  ### Syntax
+
+  <br>
+
+  There are two ways to run use this command
+  <br>
+  <br>
+
+  One way
+
+  ```bash
+    $ git reset --hard <commit hash>`
+  ```
+
+  Second way
+
+  ```bash
+    $ git reset --hard origin/master
   ```
