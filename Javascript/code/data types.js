@@ -13,4 +13,6 @@ myName = "John";
 
 let anotherPersonName = myName; //002
 anotherPersonName = "Elloit";
-console.log(myName);
+
+console.log(anotherPersonName); // value of anotherPersonName is Elloit.
+console.log(myName); // value of myName is John.
