@@ -4,16 +4,24 @@
 
 <br>
 
-1. var
-1. let
-1. const
+1. **var**
+1. **let**
+1. **const**
+
+<br>
+
+```
+Important Note
+
+Note that all the variables declaration key words are in lowercase
+
+```
 
   <br>
 
 - ## **let**
 
-  Variables declared with the key word let are mutable variables.
-  meaning those variable values can change overtime.
+  Variables declared with the key word let are changable and can be reassign. Meaning those variable values can change overtime.
 
   Example of let in action.
 
@@ -36,8 +44,7 @@
 
 - ## **const**
 
-  In contrast variables declared with the key word `const` are constants meaning immutable variables.
-  Which means those variables values can not be change through out it's life cycle.
+  In contrast variables declared with the key word `const` are constants which means those variables values can not be change or reassign to another value through out it's life cycle.
 
   ```txt
   Important Note

@@ -65,11 +65,11 @@ foo = true; // foo is now a boolean
   A Symbol value represents a unique identifier.
 
   ```
-    Important Note
+  Important Note
 
-    Symbols are guaranteed to be unique.
-    Even if we create many symbols with the same description,
-    they are different values.
+  Symbols are guaranteed to be unique.
+  Even if we create many symbols with the same description,
+  they are different values.
   ```
 
   ```js
@@ -332,6 +332,10 @@ console.log("Person hobby: " + Person.hobby); // Programming
 ```
 
 <br>
+  
+## DeepCopy
+
+<br>
 
 There are a few ways to solve this problem as well which is called deep copy.
 
@@ -375,6 +379,17 @@ console.log("Person hobby: " + Person.hobby); // Programming
 ## Using JSON.parse(JSON.stringify(yourObject)
 
 <br>
+
+```
+Important Note
+
+JSON.parse(JSON.stringify(your-object))
+
+Does not work with stuff like: Dates, functions, undefined,infinity RegExps, Maps, Sets, Blobs, flielists,
+ImageDates and other complex data types.
+```
+
+<br>
 Example
 
 ```js
@@ -402,6 +417,11 @@ console.log("PersonLikeCharles hobby: " + PersonLikeCharles.hobby); //  Gaming.
 console.log("Person gender: " + Person.gender.male); // true
 console.log("Person hobby: " + Person.hobby); // Programming
 ```
+
+## So what's the other options out there.
+
+- You could build your own deepCopy function.
+- You can use libraries like immutable.js, immer.js, lodash, Ramda would do that for you.
 
 <br>
 
